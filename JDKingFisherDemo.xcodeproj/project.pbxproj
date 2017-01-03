@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C5B4441E1B455000ECBE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C5B4431E1B455000ECBE2F /* AppDelegate.swift */; };
+		02C5B4491E1B455000ECBE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C5B4471E1B455000ECBE2F /* Main.storyboard */; };
+		02C5B44B1E1B455000ECBE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C5B44A1E1B455000ECBE2F /* Assets.xcassets */; };
+		02C5B44E1E1B455000ECBE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C5B44C1E1B455000ECBE2F /* LaunchScreen.storyboard */; };
+		02C5B4B21E1B53B000ECBE2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C5B4B11E1B53B000ECBE2F /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02C5B4971E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1ED2D351AD2D09F00CFC3EB;
+			remoteInfo = "Kingfisher-iOS";
+		};
+		02C5B4991E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D13F49D61BEDA67C00CE335D;
+			remoteInfo = "Kingfisher-tvOS";
+		};
+		02C5B49B1E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B2944481C3D01B20088C3E7;
+			remoteInfo = "Kingfisher-macOS";
+		};
+		02C5B49D1E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D16799EB1C4E74460020FD12;
+			remoteInfo = "Kingfisher-watchOS";
+		};
+		02C5B49F1E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1ED2D0B1AD2CFA600CFC3EB;
+			remoteInfo = "Kingfisher-Demo";
+		};
+		02C5B4A11E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D13F49C21BEDA53F00CE335D;
+			remoteInfo = "Kingfisher-tvOS-Demo";
+		};
+		02C5B4A31E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B2944551C3D03880088C3E7;
+			remoteInfo = "Kingfisher-macOS-Demo";
+		};
+		02C5B4A51E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1679A391C4E78B20020FD12;
+			remoteInfo = "Kingfisher-watchOS-Demo";
+		};
+		02C5B4A71E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1679A451C4E78B20020FD12;
+			remoteInfo = "Kingfisher-watchOS-Demo Extension";
+		};
+		02C5B4A91E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1ED2D3F1AD2D09F00CFC3EB;
+			remoteInfo = KingfisherTests;
+		};
+		02C5B4AB1E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B37667F1C478F940001443F;
+			remoteInfo = "KingfisherTests-tvOS";
+		};
+		02C5B4AD1E1B4A6800ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D10EC2311C3D632300A4211C;
+			remoteInfo = "KingfisherTests-macOS";
+		};
+		02C5B4AF1E1B4B7B00ECBE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D1ED2D341AD2D09F00CFC3EB;
+			remoteInfo = "Kingfisher-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C5B4401E1B455000ECBE2F /* JDKingFisherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDKingFisherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C5B4431E1B455000ECBE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02C5B4481E1B455000ECBE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02C5B44A1E1B455000ECBE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C5B44D1E1B455000ECBE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02C5B44F1E1B455000ECBE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C5B4841E1B473C00ECBE2F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kingfisher.xcodeproj; path = "../Kingfisher-master/Kingfisher.xcodeproj"; sourceTree = "<group>"; };
+		02C5B4B11E1B53B000ECBE2F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C5B43D1E1B455000ECBE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C5B4371E1B455000ECBE2F = {
+			isa = PBXGroup;
+			children = (
+				02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */,
+				02C5B4421E1B455000ECBE2F /* JDKingFisherDemo */,
+				02C5B4411E1B455000ECBE2F /* Products */,
+				02C5B4831E1B473C00ECBE2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02C5B4411E1B455000ECBE2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C5B4401E1B455000ECBE2F /* JDKingFisherDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C5B4421E1B455000ECBE2F /* JDKingFisherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				02C5B4B11E1B53B000ECBE2F /* ViewController.swift */,
+				02C5B4431E1B455000ECBE2F /* AppDelegate.swift */,
+				02C5B4471E1B455000ECBE2F /* Main.storyboard */,
+				02C5B44A1E1B455000ECBE2F /* Assets.xcassets */,
+				02C5B44C1E1B455000ECBE2F /* LaunchScreen.storyboard */,
+				02C5B44F1E1B455000ECBE2F /* Info.plist */,
+			);
+			path = JDKingFisherDemo;
+			sourceTree = "<group>";
+		};
+		02C5B4831E1B473C00ECBE2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02C5B4841E1B473C00ECBE2F /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02C5B4891E1B4A6800ECBE2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C5B4981E1B4A6800ECBE2F /* Kingfisher.framework */,
+				02C5B49A1E1B4A6800ECBE2F /* Kingfisher.framework */,
+				02C5B49C1E1B4A6800ECBE2F /* Kingfisher.framework */,
+				02C5B49E1E1B4A6800ECBE2F /* Kingfisher.framework */,
+				02C5B4A01E1B4A6800ECBE2F /* Kingfisher-Demo.app */,
+				02C5B4A21E1B4A6800ECBE2F /* Kingfisher-tvOS-Demo.app */,
+				02C5B4A41E1B4A6800ECBE2F /* Kingfisher-macOS-Demo.app */,
+				02C5B4A61E1B4A6800ECBE2F /* Kingfisher-watchOS-Demo.app */,
+				02C5B4A81E1B4A6800ECBE2F /* Kingfisher-watchOS-Demo Extension.appex */,
+				02C5B4AA1E1B4A6800ECBE2F /* KingfisherTests.xctest */,
+				02C5B4AC1E1B4A6800ECBE2F /* KingfisherTests-tvOS.xctest */,
+				02C5B4AE1E1B4A6800ECBE2F /* KingfisherTests-macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C5B43F1E1B455000ECBE2F /* JDKingFisherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C5B4521E1B455000ECBE2F /* Build configuration list for PBXNativeTarget "JDKingFisherDemo" */;
+			buildPhases = (
+				02C5B43C1E1B455000ECBE2F /* Sources */,
+				02C5B43D1E1B455000ECBE2F /* Frameworks */,
+				02C5B43E1E1B455000ECBE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C5B4B01E1B4B7B00ECBE2F /* PBXTargetDependency */,
+			);
+			name = JDKingFisherDemo;
+			productName = JDKingFisherDemo;
+			productReference = 02C5B4401E1B455000ECBE2F /* JDKingFisherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C5B4381E1B455000ECBE2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "xiaoyi li";
+				TargetAttributes = {
+					02C5B43F1E1B455000ECBE2F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MV9CCWC8NT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 02C5B43B1E1B455000ECBE2F /* Build configuration list for PBXProject "JDKingFisherDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C5B4371E1B455000ECBE2F;
+			productRefGroup = 02C5B4411E1B455000ECBE2F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 02C5B4891E1B4A6800ECBE2F /* Products */;
+					ProjectRef = 02C5B4881E1B4A6800ECBE2F /* Kingfisher.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				02C5B43F1E1B455000ECBE2F /* JDKingFisherDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		02C5B4981E1B4A6800ECBE2F /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = 02C5B4971E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B49A1E1B4A6800ECBE2F /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = 02C5B4991E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B49C1E1B4A6800ECBE2F /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = 02C5B49B1E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B49E1E1B4A6800ECBE2F /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = 02C5B49D1E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B4A01E1B4A6800ECBE2F /* Kingfisher-Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Kingfisher-Demo.app";
+			remoteRef = 02C5B49F1E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B4A21E1B4A6800ECBE2F /* Kingfisher-tvOS-Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Kingfisher-tvOS-Demo.app";
+			remoteRef = 02C5B4A11E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B4A41E1B4A6800ECBE2F /* Kingfisher-macOS-Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Kingfisher-macOS-Demo.app";
+			remoteRef = 02C5B4A31E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B4A61E1B4A6800ECBE2F /* Kingfisher-watchOS-Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Kingfisher-watchOS-Demo.app";
+			remoteRef = 02C5B4A51E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B4A81E1B4A6800ECBE2F /* Kingfisher-watchOS-Demo Extension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = "Kingfisher-watchOS-Demo Extension.appex";
+			remoteRef = 02C5B4A71E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B4AA1E1B4A6800ECBE2F /* KingfisherTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KingfisherTests.xctest;
+			remoteRef = 02C5B4A91E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B4AC1E1B4A6800ECBE2F /* KingfisherTests-tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KingfisherTests-tvOS.xctest";
+			remoteRef = 02C5B4AB1E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02C5B4AE1E1B4A6800ECBE2F /* KingfisherTests-macOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KingfisherTests-macOS.xctest";
+			remoteRef = 02C5B4AD1E1B4A6800ECBE2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C5B43E1E1B455000ECBE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C5B44E1E1B455000ECBE2F /* LaunchScreen.storyboard in Resources */,
+				02C5B44B1E1B455000ECBE2F /* Assets.xcassets in Resources */,
+				02C5B4491E1B455000ECBE2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C5B43C1E1B455000ECBE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C5B4B21E1B53B000ECBE2F /* ViewController.swift in Sources */,
+				02C5B4441E1B455000ECBE2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02C5B4B01E1B4B7B00ECBE2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kingfisher-iOS";
+			targetProxy = 02C5B4AF1E1B4B7B00ECBE2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02C5B4471E1B455000ECBE2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C5B4481E1B455000ECBE2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02C5B44C1E1B455000ECBE2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C5B44D1E1B455000ECBE2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C5B4501E1B455000ECBE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C5B4511E1B455000ECBE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C5B4531E1B455000ECBE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MV9CCWC8NT;
+				INFOPLIST_FILE = JDKingFisherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pcidata.JDKingFisherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		02C5B4541E1B455000ECBE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MV9CCWC8NT;
+				INFOPLIST_FILE = JDKingFisherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pcidata.JDKingFisherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C5B43B1E1B455000ECBE2F /* Build configuration list for PBXProject "JDKingFisherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C5B4501E1B455000ECBE2F /* Debug */,
+				02C5B4511E1B455000ECBE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C5B4521E1B455000ECBE2F /* Build configuration list for PBXNativeTarget "JDKingFisherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C5B4531E1B455000ECBE2F /* Debug */,
+				02C5B4541E1B455000ECBE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02C5B4381E1B455000ECBE2F /* Project object */;
+}
